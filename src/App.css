@@ -2,37 +2,109 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navbar{
+    box-shadow: 0px 4px 8px lightgrey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchTitle{
+  color: #003255;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.searchIcon{
+  padding: 8px 20px 0px 20px;
+  color: #003255;
+}
+
+.searchBanner{
+  margin-top: -30px;
+}
+
+.iconStyle{
+  padding: 0px 8px 4px 8px;
+  color: #003255;
+}
+
+.iconElements{
+  color: #69B130;
+  margin-left: 4px;
+}
+
+.termsCheck{
+  margin-top: 20px;
+}
+
+.ratingStyle{
+  color: #69B130;
+}
+
+.contactSubmitBtn{
+  margin-top: 20px;
+  border-radius: 0px;
+  width: 200px;
+  background-color: #69B130;
+  border: none;
+}
+
+.contactBtn{
+  background-color: #003255;
   color: white;
+  width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.btnElements{
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginBtn{
+  background-color: #69B130;
+  color: white;
+  border: none;
+  width: 100px;
+  margin-bottom: 4px;
+  height: 38px;
+  border-radius: 4px;
 }
+
+.locationInputStyle{
+  border: 1px solid #cecece;
+  padding: 8px;
+}
+
+.locationInput{
+  border: none;
+}
+
+.locationInput:focus{
+  outline: none;
+}
+
+.expertImg{
+  border: none;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.helpBtn{
+  margin-top: 20px;
+  color: #69B130;
+  border-color: #69B130;
+}
+
+
+.searchExpertInputStyle{
+  border: 1px solid #cecece;
+  padding: 8px;
+
+}
+
+.searchExpertiseInput{
+  border: none;
+}
+
+.searchExpertiseInput:focus{
+  outline: none;
+}
+
